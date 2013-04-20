@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0.5" id="touch" xml:lang="en">
+  <author href="http://www.example.com/"
+          rim:copyright="">Ashish VS</author>
+  <name>touch</name>
+  
+  <content src="index.html"/>
+  <access uri="*" subdomains="true"/>
+  <feature id="blackberry.identity" required="true" version="1.0.0.0"/>
+   <feature id="blackberry.app.orientation">
+    <param name="mode" value="landscape" />
+</feature>
+</widget>
